@@ -1,0 +1,55 @@
+Inheritance
+Accessing one class property from another class.
+Re-usability of code
+Memory wastage is low
+uses keyword 'extends'
+
+Types of Inheritance
+	Single (explained in program, class EmployeeDetails & CompanayDetails)
+	Multilevel (explained in program, class EmployeeDetails, CompanayDetails, & PersonalDetails)
+	Multiple
+	Hierarchical
+	Hybrid
+
+
+Multiple Inheritance
+
+In java Multiple Inheritance is not supported due to compile time or syntax error.
+JVM gets confused and goes to diamond or dead lock condition, since compiler does not know which method to compile when 2 methods in different class has same method name
+
+
+Hierarchical Inheritance
+
+class A (parent)
+class B extends A (child1)
+class C extends A (child2)
+class D extends A (child3)
+
+combination of one parent and more than one child.
+
+
+Hybrid Inheritance
+
+	class A (parent)
+	class B (child1)
+	class C (child2)
+	class D (child3)
+	class E (child4)
+	
+
+	single
+		class A extends C
+		
+	Multilevel
+		class B extends A
+		class C extends B
+	
+	Hierarchical
+		class B extends A
+		class C extends A
+		
+		class D extends B
+		class E extends B
+		
+	
+combination of Single Inheritance, Multilevel Inheritance, and Hierarchical Inheritance is called as Hybrid Inheritance.
