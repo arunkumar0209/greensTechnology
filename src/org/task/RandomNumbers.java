@@ -20,6 +20,6 @@ public class RandomNumbers {
 			System.out.println("Random Float is: " +Math.random());
 		}
 
-	}
+	} 
 
 }
