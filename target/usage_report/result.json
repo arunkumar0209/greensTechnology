@@ -1,0 +1,72 @@
+[
+  {
+    "source": "I enter valid {string} and valid {string}",
+    "steps": [
+      {
+        "name": "I enter valid \"arun@gmail.com\" and valid \"pass789\"",
+        "aggregatedDurations": {
+          "average": 0.3296133,
+          "median": 0.3296133
+        },
+        "durations": [
+          {
+            "duration": 0.3296133,
+            "location": "src/test/resources/features/Login.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"arun123@gmail.com\" and valid \"pass123\"",
+        "aggregatedDurations": {
+          "average": 0.4412252,
+          "median": 0.4412252
+        },
+        "durations": [
+          {
+            "duration": 0.4412252,
+            "location": "src/test/resources/features/Login.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I enter valid \"arun456@gmail.com\" and valid \"pass456\"",
+        "aggregatedDurations": {
+          "average": 0.5521786,
+          "median": 0.5521786
+        },
+        "durations": [
+          {
+            "duration": 0.5521786,
+            "location": "src/test/resources/features/Login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Open browser and launch the URL",
+    "steps": [
+      {
+        "name": "Open browser and launch the URL",
+        "aggregatedDurations": {
+          "average": 15.943022033,
+          "median": 15.6402041
+        },
+        "durations": [
+          {
+            "duration": 14.4300461,
+            "location": "src/test/resources/features/Login.feature:9"
+          },
+          {
+            "duration": 17.7588159,
+            "location": "src/test/resources/features/Login.feature:9"
+          },
+          {
+            "duration": 15.6402041,
+            "location": "src/test/resources/features/Login.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

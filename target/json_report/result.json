@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Test with valid credentials",
+        "description": "",
+        "id": "smoke-test-facebook;test-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14430046100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open browser and launch the URL",
+            "match": {
+              "location": "TestCase.open_browser_and_launch_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 329613300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter valid \"arun@gmail.com\" and valid \"pass789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arun@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"pass789\"",
+                  "offset": 41
+                }
+              ],
+              "location": "TestCase.i_enter_valid_UserName_and_valid_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cLog[in123456789]\u003e but was:\u003cLog[ into Facebook | Facebook]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)\r\n\tat ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)\r\n",
+              "duration": 20613172700,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be able to login Successfully",
+            "match": {
+              "location": "TestCase.User_should_be_able_to_login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Test with valid credentials",
+        "description": "",
+        "id": "smoke-test-facebook;test-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17758815900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open browser and launch the URL",
+            "match": {
+              "location": "TestCase.open_browser_and_launch_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 441225200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter valid \"arun123@gmail.com\" and valid \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arun123@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 44
+                }
+              ],
+              "location": "TestCase.i_enter_valid_UserName_and_valid_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cLog[in123456789]\u003e but was:\u003cLog[ into Facebook | Facebook]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)\r\n\tat ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)\r\n",
+              "duration": 4499765600,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be able to login Successfully",
+            "match": {
+              "location": "TestCase.User_should_be_able_to_login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Test with valid credentials",
+        "description": "",
+        "id": "smoke-test-facebook;test-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15640204100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open browser and launch the URL",
+            "match": {
+              "location": "TestCase.open_browser_and_launch_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 552178600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter valid \"arun456@gmail.com\" and valid \"pass456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"arun456@gmail.com\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"pass456\"",
+                  "offset": 44
+                }
+              ],
+              "location": "TestCase.i_enter_valid_UserName_and_valid_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cLog[in123456789]\u003e but was:\u003cLog[ into Facebook | Facebook]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)\r\n\tat ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)\r\n",
+              "duration": 2325741100,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "User should be able to login Successfully",
+            "match": {
+              "location": "TestCase.User_should_be_able_to_login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Smoke Test Facebook",
+    "description": "",
+    "id": "smoke-test-facebook",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]

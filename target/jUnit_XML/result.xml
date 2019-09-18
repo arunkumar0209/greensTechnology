@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="76.594238">
+<testcase classname="Smoke Test Facebook" name="Test with valid credentials" time="35.375858">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Log[in123456789]&gt; but was:&lt;Log[ into Facebook | Facebook]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)&#13;&#10;&#9;at ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)&#13;&#10;"><![CDATA[Given Open browser and launch the URL.......................................passed
+When I enter valid "arun@gmail.com" and valid "pass789".....................passed
+Then User should be able to login Successfully..............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Log[in123456789]> but was:<Log[ into Facebook | Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)
+	at ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Smoke Test Facebook" name="Test with valid credentials 2" time="22.700044">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Log[in123456789]&gt; but was:&lt;Log[ into Facebook | Facebook]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)&#13;&#10;&#9;at ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)&#13;&#10;"><![CDATA[Given Open browser and launch the URL.......................................passed
+When I enter valid "arun123@gmail.com" and valid "pass123"..................passed
+Then User should be able to login Successfully..............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Log[in123456789]> but was:<Log[ into Facebook | Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)
+	at ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)
+]]></failure>
+</testcase>
+<testcase classname="Smoke Test Facebook" name="Test with valid credentials 3" time="18.518336">
+<failure message="org.junit.ComparisonFailure: expected:&lt;Log[in123456789]&gt; but was:&lt;Log[ into Facebook | Facebook]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)&#13;&#10;&#9;at ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)&#13;&#10;"><![CDATA[Given Open browser and launch the URL.......................................passed
+When I enter valid "arun456@gmail.com" and valid "pass456"..................passed
+Then User should be able to login Successfully..............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<Log[in123456789]> but was:<Log[ into Facebook | Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)
+	at ✽.User should be able to login Successfully(src/test/resources/features/Login.feature:11)
+]]></failure>
+</testcase>
+</testsuite>

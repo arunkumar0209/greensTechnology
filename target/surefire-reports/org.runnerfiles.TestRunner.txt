@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: org.runnerfiles.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 77.288 sec <<< FAILURE!
+Test with valid credentials(Smoke Test Facebook)  Time elapsed: 35.387 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Log[in123456789]> but was:<Log[ into Facebook | Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)
+	at ?.User should be able to login Successfully(src/test/resources/features/Login.feature:11)
+
+Test with valid credentials(Smoke Test Facebook)  Time elapsed: 22.706 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Log[in123456789]> but was:<Log[ into Facebook | Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)
+	at ?.User should be able to login Successfully(src/test/resources/features/Login.feature:11)
+
+Test with valid credentials(Smoke Test Facebook)  Time elapsed: 18.523 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Log[in123456789]> but was:<Log[ into Facebook | Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.stepdefinitions.TestCase.User_should_be_able_to_login_Successfully(TestCase.java:41)
+	at ?.User should be able to login Successfully(src/test/resources/features/Login.feature:11)
+
